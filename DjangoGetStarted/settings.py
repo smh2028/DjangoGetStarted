@@ -28,7 +28,7 @@ SECRET_KEY = 'ximum0(+(4v6*)gykp5=ilhy&6)chm4c3tsh7buu#s%v1p$!s0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
