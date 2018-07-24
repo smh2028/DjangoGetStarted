@@ -1,4 +1,3 @@
-
 .smart-green {
     margin-left: auto;
     margin-right: auto;
@@ -17,7 +16,7 @@
     display: block;
     margin: -30px -30px 10px -30px;
     color: #FFF;
-    background: #9DC45F;
+    background: yellowgreen;
     text-shadow: 1px 1px 1px #949494;
     border-radius: 5px 5px 0px 0px;
     -webkit-border-radius: 5px 5px 0px 0px;

@@ -1,8 +1,10 @@
+
 from django.shortcuts import render
+
 from .models import UserMessage
 # Create your views here.
 
-def getform(request):
+def getform(request,id):
     # return render(request,'message_form.html')
 
     #UserMessage默认的数据管理器是objects
@@ -10,4 +12,4 @@ def getform(request):
     all_message = UserMessage.objects.all()
     for message in all_message:
         print(message.name)
-    return render(request,'message_form.html',{'my_message':all_message[0]})
+    return render(request,'message_form.html',{'my_message':all_message[id]})

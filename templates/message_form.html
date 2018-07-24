@@ -1,17 +1,22 @@
+
+
+
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
 
 </head>
 <body>
 
 <form  action="/form/" method="post" class="smart-green">
 
-    <h1>光谱仪信息
-        <span>管理系统 by smh</span>
+    <h1>光谱仪信息展示系统
+        <span>copyright@Glt910.com</span>
     </h1>
     <label>
         <span>型号 :</span>

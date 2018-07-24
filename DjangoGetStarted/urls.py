@@ -19,5 +19,5 @@ from apps.message import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('form/',views.getform)
+    path('form/<int:id>/',views.getform)
 ]
