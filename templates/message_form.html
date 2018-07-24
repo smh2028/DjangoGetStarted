@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 {% load static %}
 <html lang="en">
@@ -8,44 +5,82 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="/static/css/style.css">
-    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+{#    <link rel="stylesheet" href="{% static '/css/style.css' %}">#}
 
 </head>
 <body>
 
 <form  action="/form/" method="post" class="smart-green">
 
-    <h1>光谱仪信息展示系统
+    <h1>光谱仪二维码信息
         <span>copyright@Glt910.com</span>
     </h1>
-    <label>
-        <span>型号 :</span>
-        <input id="name" type="text" name="name" value="{{ my_message.name }}" class="error" placeholder="请输入您的姓名"/>
-        <div class="error-msg"></div>
-    </label>
+{#    <label>#}
+        <span>型号&#12288;&#12288;&#12288;&#12288; :</span>
+        <input id="name" type="text" name="name" value="{{ my_message.serial_num }}" class="error" placeholder="请输入您的姓名"/>
+        <div class="error-msg"></div></p>
+{#    </label>#}
 
-    <label>
-        <span>拥有人 :</span>
-        <input id="email" type="email" name="email" value="{{ my_message.email }}" placeholder="请输入邮箱地址"/>
+{#    <label>#}
+        <span>安装日期&#12288;&#12288; :</span>
+        <input id="email" type="email" name="email" value="{{ my_message.install_date }}" placeholder="请输入邮箱地址"/>
         <div class="error-msg"></div>
-    </label>
+{#    </label>#}
 
-    <label>
-        <span>客户 :</span>
-        <input id="address" type="text" name="address" value="{{ my_message.address }}" placeholder="请输入联系地址"/>
+{#    <label>#}
+        <span>安装人&#12288;&#12288;&#12288; :</span>
+        <input id="address" type="text" name="address" value="{{ my_message.installer }}" placeholder="请输入联系地址"/>
         <div class="error-msg"></div>
-    </label>
+{#    </label>#}
 
-    <label>
-        <span>备注信息 :</span>
-        <textarea id="message" name="message"  placeholder="请输入你的建议">{{ my_message.message }}</textarea>
+{#    <label>#}
+        <span>测试完成日期 :</span>
+{#        <textarea id="message" name="message"  placeholder="请输入你的建议">{{ my_message.test_date }}</textarea>#}
+        <input id="address" type="text" name="address" value="{{ my_message.test_date }}" placeholder="请输入联系地址"/>
         <div class="error-msg"></div>
-    </label>
+{#    </label>#}
+
+{#    <label>#}
+        <span>测试完成人&#12288; :</span>
+        <input id="address" type="text" name="address" value="{{ my_message.tester }}" placeholder="请输入联系地址"/>
+        <div class="error-msg"></div>
+{#    </label>#}
+
+{#    <label>#}
+        <span>更换器件&#12288;&#12288; :</span>
+        <input id="address" type="text" name="address" value="{{ my_message.changed_device }}" placeholder="请输入联系地址"/>
+        <div class="error-msg"></div>
+{#    </label>#}
+
+{#    <label>#}
+        <span>更换时间&#12288;&#12288; :</span>
+        <input id="address" type="text" name="address" value="{{ my_message.changed_device_time }}" placeholder="请输入联系地址"/>
+        <div class="error-msg"></div>
+{#    </label>#}
+
+{#    <label>#}
+        <span>出现过的问题 :</span>
+        <input id="address" type="text" name="address" value="{{ my_message.errs }}" placeholder="请输入联系地址"/>
+        <div class="error-msg"></div>
+{#    </label>#}
+
+{#    <label>#}
+        <span>持有人&#12288;&#12288;&#12288; :</span>
+        <input id="address" type="text" name="address" value="{{ my_message.holder }}" placeholder="请输入联系地址"/>
+        <div class="error-msg"></div>
+{#    </label>#}
+
+{#    <label>#}
+        <span>光谱仪的去向 :</span>
+        <input id="address" type="text" name="address" value="{{ my_message.destination }}" placeholder="请输入联系地址"/>
+        <div class="error-msg"></div>
+{#    </label>#}
+
     <div class="success-msg"></div>
-    <label>
-        <span>&nbsp;</span>
-        <input type="submit" class="button" value="提交"/>
-    </label>
+{#    <label>#}
+{#        <span>&nbsp;</span>#}
+{#        <input type="submit" class="button" value="提交"/>#}
+{#    </label>#}
      {% csrf_token %}
 {#    <input type='hidden' name='csrfmiddlewaretoken' value='SfHkbL4feo1G00sJQtbO7TtLN4c2BUwa' />#}
 
