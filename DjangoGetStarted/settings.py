@@ -80,12 +80,12 @@ WSGI_APPLICATION = 'DjangoGetStarted.wsgi.application'
 
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'NAME':'testdjango',
-        'USER':'root',
-        'PASSWORD':'root',
-        'HOST':'127.0.0.1'
+        # 'NAME':'testdjango',
+        # 'USER':'root',
+        # 'PASSWORD':'root',
+        # 'HOST':'127.0.0.1'
     }
 }
 
