@@ -14,10 +14,23 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path,register_converter,re_path
 from apps.message import views
 
+# class UrlParamsConverter:
+#     regex = 'form\?w=\d{4}&t=\d{4}&ms=\d&g=\d&np=\d{7}'
+#
+#     def to_python(self,value):
+#         return int(value)
+#
+#     def to_url(self,value):
+#         return '%04d' % value
+#
+# register_converter(UrlParamsConverter,)
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('form/<int:id>/',views.getform)
+    path('form/',views.getform)
+    # re_path(r'form/(?P<w>[0-9]{4})',views.getform)
+    #form\?w=(?P<w>\d{4})&t=(?P<t>\d{4})&ms=(?P<ms>\d)&g=(?P<g>\d)&np=(?P<np>\d{7})
+
 ]

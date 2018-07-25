@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a2a1119-ae10-4633-a081-a2db1f2801cb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoGetStarted/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoGetStarted/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoGetStarted/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoGetStarted/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/message/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/message/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DjangoGetStarted/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1389">
-              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <state relative-caret-position="327">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -42,7 +45,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/message/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="-18">
               <caret line="5" column="17" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="17" />
               <folding>
                 <element signature="e#24#52#0" expanded="true" />
@@ -54,7 +57,7 @@
       <file leaf-file-name="message_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/message_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
+            <state relative-caret-position="421">
               <caret line="67" column="41" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
             </state>
           </provider>
@@ -69,11 +72,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/message/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="306">
+              <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+              <folding>
+                <element signature="e#1#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoGetStarted/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+              <folding>
+                <element signature="e#640#672#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,8 +120,8 @@
       <find>form_new</find>
       <find>my_message.name</find>
       <find>float</find>
-      <find>serial_num</find>
       <find>text</find>
+      <find>serial_num</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,13 +134,13 @@
         <option value="$PROJECT_DIR$/templates/form.html" />
         <option value="$PROJECT_DIR$/apps/message/static/css/style.css" />
         <option value="$PROJECT_DIR$/DjangoGetStarted/__init__.py" />
-        <option value="$PROJECT_DIR$/DjangoGetStarted/urls.py" />
         <option value="$PROJECT_DIR$/apps/message/admin.py" />
         <option value="$PROJECT_DIR$/apps/message/models.py" />
-        <option value="$PROJECT_DIR$/apps/message/views.py" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/templates/message_form.html" />
         <option value="$PROJECT_DIR$/DjangoGetStarted/settings.py" />
+        <option value="$PROJECT_DIR$/DjangoGetStarted/urls.py" />
+        <option value="$PROJECT_DIR$/apps/message/views.py" />
       </list>
     </option>
   </component>
@@ -136,10 +154,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="147" />
-    <option name="y" value="196" />
-    <option name="width" value="1468" />
-    <option name="height" value="823" />
+    <option name="x" value="258" />
+    <option name="y" value="210" />
+    <option name="width" value="1564" />
+    <option name="height" value="783" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -206,7 +224,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mooconline" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_basic_runnoob" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -303,8 +321,8 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.2895863" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32952926" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3566334" />
-      <window_info anchor="bottom" id="manage.py@DjangoGetStarted" order="7" sideWeight="0.49932975" visible="true" weight="0.16262482" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24061662" />
+      <window_info active="true" anchor="bottom" id="manage.py@DjangoGetStarted" order="7" sideWeight="0.49932975" visible="true" weight="0.33808845" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15549597" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
@@ -666,16 +684,6 @@
         <state relative-caret-position="-138" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoGetStarted/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="e#640#672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/message/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -689,27 +697,20 @@
     <entry file="file://$PROJECT_DIR$/apps/message/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/message/views.py">
+    <entry file="file://$PROJECT_DIR$/DjangoGetStarted/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="327">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/message/models.py">
+    <entry file="file://$PROJECT_DIR$/DjangoGetStarted/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="118">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
           <folding>
-            <element signature="e#24#52#0" expanded="true" />
+            <element signature="e#640#672#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/message_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="67" column="41" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -720,10 +721,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoGetStarted/settings.py">
+    <entry file="file://$PROJECT_DIR$/templates/message_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1389">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="421">
+          <caret line="67" column="41" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/message/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/message/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+          <folding>
+            <element signature="e#1#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
