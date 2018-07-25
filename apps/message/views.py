@@ -17,6 +17,6 @@ def getform(request):
     for i in r:
         sn += i
     sn = sn.upper()
-    print(sn)
+    # print(sn)
     message = UserMessage.objects.get(serial_num=sn)
     return render(request,'message_form.html',{'my_message': message})

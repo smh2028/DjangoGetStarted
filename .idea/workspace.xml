@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a2a1119-ae10-4633-a081-a2db1f2801cb" name="Default" comment="留言初步可用">
-      <change beforePath="$PROJECT_DIR$/DjangoGetStarted/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoGetStarted/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/message/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/message/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="4a2a1119-ae10-4633-a081-a2db1f2801cb" name="Default" comment="留言初步可用" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DjangoGetStarted/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -70,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/message/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -137,8 +134,8 @@
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/templates/message_form.html" />
         <option value="$PROJECT_DIR$/DjangoGetStarted/urls.py" />
-        <option value="$PROJECT_DIR$/DjangoGetStarted/settings.py" />
         <option value="$PROJECT_DIR$/apps/message/views.py" />
+        <option value="$PROJECT_DIR$/DjangoGetStarted/settings.py" />
       </list>
     </option>
   </component>
@@ -151,7 +148,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="258" />
     <option name="y" value="210" />
     <option name="width" value="1564" />
@@ -302,7 +299,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" weight="0.2853067" />
@@ -721,13 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoGetStarted/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/message/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -735,6 +726,13 @@
           <folding>
             <element signature="e#24#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoGetStarted/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
